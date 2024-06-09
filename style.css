@@ -24,11 +24,11 @@
     background-color: #54a951;
     font-family: Consolas, Courier New, monospace;
     font-size: 125%;
-	width: calc(25% - 1em); /* 25% av föräldrarnas bredd minus marginal */
-    height: 4em; /* Bestämmer en fast höjd */
-    flex: 1 1 22%; /* Lägger till flex-inställningar för att få plats med 4 knappar per rad */
-    box-sizing: border-box; /* För att inkludera padding och border i knapparnas bredd */
-    margin: 0.5%; /* Lite marginal mellan knapparna */
+	width: calc(25% - 1em); 
+    height: 4em; 
+    flex: 1 1 22%;
+    box-sizing: border-box;
+    margin: 0.5%; 
 }
 	
 
@@ -50,11 +50,11 @@
     background-color: #182618;
     font-family: Consolas, Courier New, monospace;
     font-size: 125%;
-	width: calc(25% - 1em); /* 25% av föräldrarnas bredd minus marginal */
-    height: 4em; /* Bestämmer en fast höjd */
-    flex: 1 1 22%; /* Lägger till flex-inställningar för att få plats med 4 knappar per rad */
-    box-sizing: border-box; /* För att inkludera padding och border i knapparnas bredd */
-    margin: 0.5%; /* Lite marginal mellan knapparna */
+	width: calc(25% - 1em); 
+    height: 4em; 
+    flex: 1 1 22%; 
+    box-sizing: border-box; 
+    margin: 0.5%; 
 }
     
 	.digit {
