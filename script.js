@@ -5,7 +5,6 @@ const output = document.querySelector('#result')
 const selected = document.querySelector('.selected')
 const equal = document.querySelector('.equal')
 const clearButton = document.querySelector('.clear')
-const extra = document.querySelectorAll('.extra')
 
 let firstNumber = ''
 let operator = ''
