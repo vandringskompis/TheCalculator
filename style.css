@@ -1,0 +1,74 @@
+
+
+.calculator {
+	    display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		box-shadow: 0 0 0.1em #3e99b5;
+		background-color: #121213;
+		border-radius: 0.2em;
+		
+		max-width: 500px;
+        width: 100%;
+
+		margin-top: 2em;
+		margin-bottom: 2em;
+		
+		padding: 1em;
+		justify-content: center;
+		gap: 0.75em;
+	}
+    button {
+    border-radius: 0.3em;
+    border: 1px solid black;
+    background-color: #54a951;
+    font-family: Consolas, Courier New, monospace;
+    font-size: 125%;
+	width: calc(25% - 1em); /* 25% av föräldrarnas bredd minus marginal */
+    height: 4em; /* Bestämmer en fast höjd */
+    flex: 1 1 22%; /* Lägger till flex-inställningar för att få plats med 4 knappar per rad */
+    box-sizing: border-box; /* För att inkludera padding och border i knapparnas bredd */
+    margin: 0.5%; /* Lite marginal mellan knapparna */
+}
+	
+
+	button:hover {
+		cursor: pointer;
+		box-shadow: 0 0 0.3em #A2ADB0;
+	}
+	
+	code {
+		background-color: #D5E5EA;
+		border-radius: 0.3em;
+		padding: 0.4em 1em;
+		font-size: 110%;
+	}
+
+	.extra {
+    border-radius: 0.3em;
+    border: 1px solid black;
+    background-color: #182618;
+    font-family: Consolas, Courier New, monospace;
+    font-size: 125%;
+	width: calc(25% - 1em); /* 25% av föräldrarnas bredd minus marginal */
+    height: 4em; /* Bestämmer en fast höjd */
+    flex: 1 1 22%; /* Lägger till flex-inställningar för att få plats med 4 knappar per rad */
+    box-sizing: border-box; /* För att inkludera padding och border i knapparnas bredd */
+    margin: 0.5%; /* Lite marginal mellan knapparna */
+}
+    
+	.digit {
+    background-color: #377037;
+	}
+
+	@media (max-width: 600px) {
+		.calculator {
+			flex-direction: row;
+			margin-left: 1em;
+			margin-right: 1em;
+		}
+	
+		button {
+			width: 100%;
+		}
+	}
